@@ -1,0 +1,15 @@
+*{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color:azure;}
+
+#main{display:flex;
+flex-wrap: wrap;
+align-items: center;
+flex-flow: column;
+background-color:darkgrey;
+color:firebrick;}
+
+#footer{display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    background-color:aquamarine;
+align-items: center;}
