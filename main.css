@@ -1,23 +1,26 @@
-*{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-background-color:azure;}
+*{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
-#main{display:flex;
+#main{display:block;
 flex-wrap: wrap;
 align-items: center;
-flex-flow: column;
 background-color:darkgrey;
-color:firebrick;}
+color:black;}
 
 #menu {display: flex;
 justify-content:space-between;}
 
-#footer{display: flex;
-    background-color: dimgrey;
-    flex-flow: column;
-align-items: center;}
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:darkgray;
+  color:black;
+  text-align: center;
+}
 
 .topnav {
-    background-color:darkseagreen;
+  background-color: #333;
     overflow: hidden;
   }
   
@@ -25,7 +28,7 @@ align-items: center;}
   .topnav a {
     float: left;
     display: block;
-    color:cadetblue;
+    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -47,6 +50,7 @@ align-items: center;}
   /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
+    
   }
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
